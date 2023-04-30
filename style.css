@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    background-color: #1F2937;
+    min-height: 150px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.item {
+    padding-inline: 10px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    border: 3px solid grey;
+    
+}
+
+.item-1 {
+    min-height: 50px;
+    max-height: 50px;
+    margin-right: auto;
+    
+}
+
+.item-2 {
+    max-height: 35px;
+    max-width: 60px;
+    margin: 0 10px;
+}
+
+.item-3 {
+    max-height: 35px;
+    max-width: 60px;
+    margin: 0 10px;
+
+}
+
+.item-4 {
+max-height: 35px;
+max-width: 60px;
+margin: 0 10px;
+}
