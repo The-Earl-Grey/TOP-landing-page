@@ -42,7 +42,9 @@ ul {
 
 }
 .hero-main {
-    padding-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    
 }
 
 .hero-main h1 {
@@ -69,3 +71,34 @@ ul {
     border-color: black;
     
 }
+
+.container2 {
+    margin: 80px auto;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery article {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .gallery h3, .gallery p {
+    margin: 5px 0;
+  }
+  
