@@ -66,6 +66,7 @@ ul {
     color: white;
     padding: 5px 10px;
     border: none;
+    border-radius: 5px;
     margin-top: 15%;
   
 }
@@ -85,14 +86,14 @@ ul {
 }
 
 .container2 {
-    margin: 100px auto;
+    margin: 40px auto;
     text-align: center;
   }
 
 .container2 h2 {
     font-size: 36px;
     font-weight: bolder;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     color: #1F2937;
 }
   
@@ -100,15 +101,17 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-radius: 10px;
+    
   }
   
 .gallery article {
-    margin: 10px;
+    margin: 20px;
     width: 150px;
     height: 150px;
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 5px solid #5ec4ff;
+    border-radius: 5px;
+    
   }
   
 .gallery img {
@@ -121,3 +124,55 @@ ul {
 .gallery h3, .gallery p {
     margin: 5px 0;
   }
+
+.testimonial {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 300px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+}
+
+.customer {
+    font-weight: bold;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    margin: 100px;
+    padding: 5%;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    font-size: 20px;
+   
+}
+.action h3 {
+    font-weight: bold;
+}
+.action-text {
+    display: flexbox;
+}
+
+.action button {
+    justify-content: right;
+    margin-left: auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px;
+}
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
